@@ -325,14 +325,13 @@ p {
 .kokos:focus {
   border: 1px solid var(--accent-color);
 }
-
+/* modal */
 .modal-button{
     display: flex;
     justify-content: flex-end;
     margin-top: 8px;
     margin-right: 8px;
     align-items: center;
-
 }
  .ewcw {
   position: absolute;
@@ -350,6 +349,36 @@ p {
 .ewcw{
   fill:#000000;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin: 0 auto;
+}
+  
+
+.label-wid {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.wid {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
   .cloze {
     fill: #212121;
 }
