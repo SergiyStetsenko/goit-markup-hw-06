@@ -397,22 +397,25 @@
             <div class="modal-button">
              <div class="form">
                 <p>Оставьте свои данные, мы вам перезвоним</p>
-                <form  name="formator" autocomplete="on" novalidate>
+                <form  name="formator" autocomplete="off" novalidate>
+                    <div class="">
                     <label class="label-wid" for="full-name">
                         Имя
                     <input class="wid" type="name" name="username" id="full-name"
-                    placeholder="">
+                    placeholder="" >
                     </label>
+                    </div>
                     <label class="label-wid" for="full-tell">
                         Телефон
-                        <input class="wid" type="number" name="tell" id="full-tell" placeholder="">
+                        <input class="wid" type="number" name="tell"  id="full-tell">
+                        
                     </label>
                     <label class="label-wid" for="full-email">
                         Почта
                         <input class="wid" type="email" name="email" id="full-email" placeholder="">
                     </label>
                     Комментарий
-                    <textarea class="label-wid" name="feedback" rows="5"  id="full-coment"
+                    <textarea class="label-wid" name="feedback" rows="10"  id="full-coment"
                     placeholder="Введите текст"></textarea>
                     <label>
                         <input type="checkbox" name="" id="full-coment" value="checkbox" checked />

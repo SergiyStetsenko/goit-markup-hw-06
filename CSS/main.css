@@ -350,17 +350,19 @@ p {
   fill:#000000;
 }
 .form {
-  display: flex;
-  flex-direction: column;
-  max-width: 480px;
-  margin: 0 auto;
+  /* display: block;
+  text-align:
+  justify-content:  */
+
 }
   
 
 .label-wid {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  background-image: url('./images/itens.svg');
 }
 .wid {
   border: 1px solid rgba(33, 33, 33, 0.2);

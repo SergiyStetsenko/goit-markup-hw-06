@@ -300,6 +300,9 @@ address {
 .new {
   color: var(--accent-color);
 }
+textarea {
+  resize: ;
+}
 .address {
   color: rgba(255, 255, 255, 0.6);
 }
