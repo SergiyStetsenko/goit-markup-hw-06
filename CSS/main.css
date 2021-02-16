@@ -88,6 +88,7 @@ h1 {
   width: auto;
   display: inline-flex;
 }
+
 .rer {
   display: flex;
   border-radius: 4px;
@@ -378,6 +379,8 @@ textarea {
 .checkbox {
   display: flex;
   flex-direction: row;
+      padding-top: 20px;
+    padding-bottom: 30px;
 }
 .peshka {
   margin-bottom: 4px;
@@ -392,6 +395,7 @@ textarea {
   border-radius: 4px;
   padding-top: 12px;
   padding-bottom: 12px;
+  padding-left: 42px;
 }
 .yoyo {
   display: flex;
@@ -471,6 +475,11 @@ textarea {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.rery{
+  position: absolute;
+      margin-top: 23px;
+    margin-left: 15px; 
+}
 .check-label{
     position: relative;
     padding-left: 25px;
@@ -482,8 +491,6 @@ textarea {
   text-decoration: underline;
   font-size: 14px;
 line-height: 2px;
-  
-  
 }
 .check-label:before{
     content: "";
