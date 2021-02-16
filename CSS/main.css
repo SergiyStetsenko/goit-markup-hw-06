@@ -322,9 +322,7 @@ p {
 }
 /* modal */
 .modal-button {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  width: 100%;
 }
 .ewcw {
   position: absolute;
@@ -358,11 +356,6 @@ p {
 .ewcw {
   fill: #000000;
 }
-.form {
-  /* display: block;
-  text-align:
-  justify-content:  */
-}
 
 .label-wid {
   padding-bottom: 10px;
@@ -374,7 +367,10 @@ textarea {
   resize: none;
 }
 .lili {
-  margin-bottom: 12px;
+      margin-bottom: 12px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 23px;
 }
 .hooh {
   margin-top: 12px;
@@ -403,69 +399,7 @@ textarea {
   align-items: center;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.check-label {
-  position: relative;
-  padding-left: 25px;
-}
-.check-label:before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 15px;
-  border: 2px solid black;
-  border-radius: 2px;
-  left: 0;
-}
-.check:checked + .check-label:before {
-  background-color: var(--accent-color);
-  background-image: url("../img/checkmark.svg");
-  border-color: var(--accent-color);
-}
-.check-label:focus + .check-label:before {
-  border-color: var(--accent-color);
-}
-пардон,
-старый код .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.check-label {
-  position: relative;
-  padding-left: 25px;
-}
-.check-label:before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 15px;
-  border: 2px solid black;
-  border-radius: 2px;
-  left: 0;
-}
-.check:checked + .check-label:before {
-  background-color: var(--accent-color);
-  background-image: url("../img/checkmark.svg");
-  border-color: var(--accent-color);
-}
-.check:focus + .check-label:before {
-  border-color: var(--accent-color);
-}
+
 .cloze {
   fill: #212121;
 }
@@ -526,6 +460,48 @@ textarea {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.check-label{
+    position: relative;
+    padding-left: 25px;
+}
+.ssulka{
+  margin-left: 5px;
+  color: var(--accent-color);
+  text-decoration: underline;
+  
+  
+}
+.check-label:before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    left: 0;
+}
+.check:checked + .check-label:before{
+     /* background-color: var(--accent-color);   */
+     background-image: url(../images/icon.svg);
+    border-color: var(--accent-color); 
+}
+.check:focus + .check-label:before{
+      border-color: var(--accent-color);      
+}
+.sogla {
+  font-size: 14px;
+line-height: 24px;
 }
 
 /* цвет основного текста #212121 */
