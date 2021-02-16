@@ -480,7 +480,7 @@ height: 40px;
 }
 .rery{
   position: absolute;
-      margin-top: 23px;
+      margin-top: 17px;
     margin-left: 15px; 
 }
 .check-label{
@@ -497,7 +497,7 @@ height: 40px;
   border-radius: 4px;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 42px;}
+  padding-left: 16px;}
 .ssulka{
   margin-left: 5px;
   color: var(--accent-color);
