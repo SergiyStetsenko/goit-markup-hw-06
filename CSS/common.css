@@ -345,6 +345,9 @@ address {
   border-radius: 4px;
 }
 
+.gig {
+  padding-top: 20px;
+}
 .address {
   color: rgba(255, 255, 255, 0.6);
 }

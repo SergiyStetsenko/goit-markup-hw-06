@@ -474,11 +474,14 @@ textarea {
 .check-label{
     position: relative;
     padding-left: 25px;
+    display: flex;
 }
 .ssulka{
   margin-left: 5px;
   color: var(--accent-color);
   text-decoration: underline;
+  font-size: 14px;
+line-height: 2px;
   
   
 }
@@ -501,7 +504,7 @@ textarea {
 }
 .sogla {
   font-size: 14px;
-line-height: 24px;
+line-height: 2px;
 }
 
 /* цвет основного текста #212121 */
