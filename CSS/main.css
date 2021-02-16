@@ -61,10 +61,11 @@ h1 {
   max-width: 1600px;
   height: 600px;
   background-size: cover;
-  background-image: linear-gradient( rgba(47, 48, 58, 0.4),
-   rgba(47, 48, 58, 0.4) ), url(../images/Img\ hero.jpg);
-  
-
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img\ hero.jpg);
 }
 .hero {
   text-align: center;
@@ -90,14 +91,15 @@ h1 {
 .rer {
   display: flex;
   border-radius: 4px;
+  justify-content: space-between;
 }
- .backdrop.is-hidden {
-opacity: 0;
-pointer-events: none;
-width: 100%;
-height: 100%;
-background: rgba(0, 0, 0, 0.2);
-} 
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
 
 .mod {
   width: 270px;
@@ -110,7 +112,7 @@ background: rgba(0, 0, 0, 0.2);
 }
 .icon:hover,
 .icon:focus {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 .happe {
   width: 44px;
@@ -122,11 +124,9 @@ background: rgba(0, 0, 0, 0.2);
   margin: 20px 20px;
 }
 
-
 .icon {
-  fill: #AFB1B8;
+  fill: #afb1b8;
   background-size: contain;
-  
 }
 
 /*Секция преимущества*/
@@ -193,10 +193,9 @@ p {
   text-align: center;
   justify-content: end;
   position: relative;
-  
 }
 .yoga {
-  width: 370px; 
+  width: 370px;
   height: 70px;
   color: #ffffff;
   font-family: inherit;
@@ -208,7 +207,7 @@ p {
   right: 0px;
   background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
-  padding-bottom: 27px; 
+  padding-bottom: 27px;
 }
 /*команда*/
 .section {
@@ -219,15 +218,14 @@ p {
 }
 .goood:hover,
 .goood:focus {
-  background-color:var(--accent-color)
-  
+  background-color: var(--accent-color);
 }
-.goood:hover svg{
-  fill:#FFFFFF;
+.goood:hover svg {
+  fill: #ffffff;
 }
 
-.goood:focus svg{
-  fill: #FFFFFF;; 
+.goood:focus svg {
+  fill: #ffffff;
 }
 .goood:focus {
   border: 1px solid var(--accent-color);
@@ -242,11 +240,9 @@ p {
   border-radius: 50%;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-  
 }
 .fotoma {
-   display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -303,35 +299,34 @@ p {
   height: 100%;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   
 }
-.koko {  
+.koko {
   fill: var(--title-text-color);
   border: 1px solid #afb1b8;
   width: 170px;
   height: 90px;
-  margin-right: 30px;
+
 }
 .kokos:hover,
 .kokos:focus {
   border: 1px solid var(--accent-color);
 }
-.kokos:hover svg{
-  fill:var(--accent-color); 
+.kokos:hover svg {
+  fill: var(--accent-color);
 }
-.kokos:focus svg{
-  fill:var(--accent-color); 
+.kokos:focus svg {
+  fill: var(--accent-color);
 }
 .kokos:focus {
   border: 1px solid var(--accent-color);
 }
 /* modal */
-.modal-button{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.modal-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
- .ewcw {
+.ewcw {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -344,8 +339,8 @@ p {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.submit{
-   color: #ffffff;
+.submit {
+  color: #ffffff;
   background-color: var(--accent-color);
   border: #ffffff;
   font-family: inherit;
@@ -359,140 +354,126 @@ p {
   padding-right: 55px;
   padding-bottom: 10px;
   padding-left: 55px;
-
 }
-.ewcw{
-  fill:#000000;
+.ewcw {
+  fill: #000000;
 }
 .form {
-  
- 
   /* display: block;
   text-align:
   justify-content:  */
 }
-  
 
 .label-wid {
   padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-   
 }
 textarea {
-  resize: none ;
+  resize: none;
 }
- .lili {
- margin-bottom: 12px;
-} 
+.lili {
+  margin-bottom: 12px;
+}
 .hooh {
   margin-top: 12px;
 }
-.checkbox{
+.checkbox {
   display: flex;
   flex-direction: row;
 }
-.peshka{
+.peshka {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.8;
   color: var(--title-text-color);
 }
-.wid {  
+.wid {
   display: flex;
   border: 1px solid rgba(33, 33, 33, 0.2);
-box-sizing: border-box;
-border-radius: 4px;
-padding-top: 12px;
-    padding-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .yoyo {
-   display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;}
-
-.visually-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-.check-label{
-    position: relative;
-    padding-left: 25px;
-}
-.check-label:before{
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 15px;
-    border: 2px solid black;
-    border-radius: 2px;
-    left: 0;
-}
-.check:checked + .check-label:before{
-    background-color: var(--accent-color);
-    background-image: url("../img/checkmark.svg");
-    border-color: var(--accent-color);
-}
-.check-label:focus + .check-label:before{
-    border-color: var(--accent-color);
-}
-пардон, старый код
-.visually-hidden{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-.check-label{
-    position: relative;
-    padding-left: 25px;
-}
-.check-label:before{
-    content: "";
-    position: absolute;
-    width: 16px;
-    height: 15px;
-    border: 2px solid black;
-    border-radius: 2px;
-    left: 0;
-}
-.check:checked + .check-label:before{
-    background-color: var(--accent-color);
-    background-image: url("../img/checkmark.svg");
-    border-color: var(--accent-color);
-}
-.check:focus + .check-label:before{
-    border-color: var(--accent-color);
+  align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-  .cloze {
-    fill: #212121;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.check-label {
+  position: relative;
+  padding-left: 25px;
+}
+.check-label:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+  left: 0;
+}
+.check:checked + .check-label:before {
+  background-color: var(--accent-color);
+  background-image: url("../img/checkmark.svg");
+  border-color: var(--accent-color);
+}
+.check-label:focus + .check-label:before {
+  border-color: var(--accent-color);
+}
+пардон,
+старый код .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.check-label {
+  position: relative;
+  padding-left: 25px;
+}
+.check-label:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 2px;
+  left: 0;
+}
+.check:checked + .check-label:before {
+  background-color: var(--accent-color);
+  background-image: url("../img/checkmark.svg");
+  border-color: var(--accent-color);
+}
+.check:focus + .check-label:before {
+  border-color: var(--accent-color);
+}
+.cloze {
+  fill: #212121;
 }
 .popru {
-  fill: #AFB1B8;
-  width:100%
-  height:100%
-  background-size:contain;
+  fill: #afb1b8;
+  width: 100%
+  height: 100%
+  background-size: contain;
 }
 .techno {
   display: flex;
@@ -515,23 +496,24 @@ padding-top: 12px;
 .address {
   color: rgba(255, 255, 255, 0.6);
 }
- 
- .backdrop {
+
+.backdrop {
   position: fixed;
   z-index: 2;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);}
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
-  .backdrop .is-hidden {
-    opacity: 0;
-  pointer-events: none; 
-  }  
-   .modal  {
+.backdrop .is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
   display: flex;
-  position: absolute; 
+  position: absolute;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -539,15 +521,13 @@ padding-top: 12px;
   min-width: 528px;
   min-height: 581px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
-  0px 1px 1px rgba(0, 0, 0, 0.14), 
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-} 
-  
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* синий для виделений акцент #2196F3 */
