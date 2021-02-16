@@ -64,8 +64,9 @@ html {
 }
 .sow {
   display: block;
+
   padding-top: 21px;
-  margin-right: 93px;
+  /* margin-right: 93px; */
 }
 .gig {
   display: block;
@@ -77,6 +78,7 @@ html {
 }
 .lopo {
   display: flex;
+  justify-content: space-between;
 
   /* align-items: center; */
   /* justify-content: center; */
@@ -317,6 +319,10 @@ address {
   padding-right: 28px;
   padding-bottom: 10px;
   padding-left: 28px;
+}
+.telegram {
+  position: absolute;
+  fill: #ffffff;
 }
 .new {
   color: var(--accent-color);

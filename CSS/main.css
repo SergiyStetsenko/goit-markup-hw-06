@@ -365,11 +365,7 @@ p {
   fill:#000000;
 }
 .form {
-   position: absolute;
-   top: 50%;
-   width: 80%;
-  left: 50%;
-   transform: translate(-50%, -50%);
+  
  
   /* display: block;
   text-align:
@@ -399,7 +395,7 @@ textarea {
 }
 .peshka{
   margin-bottom: 4px;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.8;
   color: var(--title-text-color);
 }
@@ -536,6 +532,7 @@ padding-top: 12px;
    .modal  {
   display: flex;
   position: absolute; 
+  padding: 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
