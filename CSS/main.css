@@ -311,6 +311,7 @@ p {
 .kokos:hover,
 .kokos:focus {
   border: 1px solid var(--accent-color);
+  
 }
 .kokos:hover svg {
   fill: var(--accent-color);
@@ -325,6 +326,32 @@ p {
 .modal-button {
   width: 100%;
 }
+
+input:hover,
+input:focus {
+  border: 2px solid #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wid-feadback:hover,
+.wid-feadback:focus {
+  border: 2px solid #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.label-wid:hover svg{
+  fill: #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.label-wid:focus svg{
+  fill: #2196F3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .ewcw {
   position: absolute;
   top: 8px;
@@ -357,13 +384,18 @@ p {
 .ewcw {
   fill: #000000;
 }
-
+.ewcw:hover {
+  fill: #2196F3;;
+}
 .label-wid {
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 textarea {
   resize: none;
 }
