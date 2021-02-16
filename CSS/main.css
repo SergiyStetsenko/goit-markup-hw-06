@@ -344,6 +344,23 @@ p {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.submit{
+   color: #ffffff;
+  background-color: var(--accent-color);
+  border: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-right: 55px;
+  padding-bottom: 10px;
+  padding-left: 55px;
+
+}
 .ewcw{
   fill:#000000;
 }
@@ -361,21 +378,107 @@ p {
   
 
 .label-wid {
-  padding-top: 10px;
+  padding-bottom: 10px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 10px;
+  justify-content: center;
+   
 }
-.wid {
+textarea {
+  resize: none ;
+}
+ .lili {
+ margin-bottom: 12px;
+} 
+.hooh {
+  margin-top: 12px;
+}
+.checkbox{
+  display: flex;
+  flex-direction: row;
+}
+.peshka{
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--title-text-color);
+}
+.wid {  
+  display: flex;
   border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px;
+padding-top: 12px;
+    padding-bottom: 12px;
 }
 .yoyo {
    display: flex;
   justify-content: center;
-align-items: center;}
+  align-items: center;}
 
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.check-label{
+    position: relative;
+    padding-left: 25px;
+}
+.check-label:before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    left: 0;
+}
+.check:checked + .check-label:before{
+    background-color: var(--accent-color);
+    background-image: url("../img/checkmark.svg");
+    border-color: var(--accent-color);
+}
+.check-label:focus + .check-label:before{
+    border-color: var(--accent-color);
+}
+пардон, старый код
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.check-label{
+    position: relative;
+    padding-left: 25px;
+}
+.check-label:before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    left: 0;
+}
+.check:checked + .check-label:before{
+    background-color: var(--accent-color);
+    background-image: url("../img/checkmark.svg");
+    border-color: var(--accent-color);
+}
+.check:focus + .check-label:before{
+    border-color: var(--accent-color);
+}
 
 
 
