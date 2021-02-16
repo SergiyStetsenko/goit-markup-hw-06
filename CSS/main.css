@@ -329,8 +329,6 @@ p {
 .modal-button{
     display: flex;
     justify-content: flex-end;
-    margin-top: 8px;
-    margin-right: 8px;
     align-items: center;
 }
  .ewcw {
@@ -350,26 +348,33 @@ p {
   fill:#000000;
 }
 .form {
+   position: absolute;
+   top: 50%;
+   width: 80%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+ 
   /* display: block;
   text-align:
   justify-content:  */
-
 }
   
 
 .label-wid {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 10px;
-  background-image: url('./images/itens.svg');
+  padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
 }
 .wid {
   border: 1px solid rgba(33, 33, 33, 0.2);
 box-sizing: border-box;
 border-radius: 4px;
 }
-
+.yoyo {
+   display: flex;
+  justify-content: center;
+align-items: center;}
 
 
 
