@@ -338,12 +338,15 @@ input:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .label-wid:hover,
-.label-wid:focus {
+.label-wid:focus svg {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rery.wid:hover,
+.rery.wid:focus svg {
+  fill: var(--accent-color);
 }
 
 .ewcw {

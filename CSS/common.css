@@ -312,6 +312,7 @@ address {
 }
 
 .widiid {
+  color: var(--title-text-color);
   width: 358px;
   display: flex;
   border: 1px solid rgba(33, 33, 33, 0.2);
