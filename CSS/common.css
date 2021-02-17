@@ -44,10 +44,7 @@ html {
   fill: var(--title-text-color);
   margin-right: 10px;
 }
-/* .riko:hover,
-.riko:focus svg {
-  fill: var(--accent-color);
-} */
+
 .color {
   color: var(--accent-color);
 }
@@ -73,9 +70,6 @@ html {
 .lopo {
   display: flex;
   justify-content: space-between;
-
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 .contacts {
   display: flex;
@@ -110,10 +104,6 @@ ul li {
   opacity: 1;
   transition: opacite 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .current:hover::after {
-  opacity: 1;
-} */
-
 .link {
   position: relative;
   display: block;
@@ -278,11 +268,6 @@ address {
   width: 44px;
   height: 44px;
 }
-
-/* .contacts::before {
-  content: "";
-  color: aqua;
-} */
 .masha {
   display: flex;
   align-items: center;
