@@ -331,7 +331,10 @@ input:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+input:hover + svg,
+input:focus + svg {
+  fill: #2196f3;
+}
 .wid-feadback:hover,
 .wid-feadback:focus {
   border: 1px solid #2196f3;
